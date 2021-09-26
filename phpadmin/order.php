@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <title>Home</title>
-    <link rel ="stylesheet" href="css/stylead.css">
+    <title>admin</title>
+    <link rel ="stylesheet" href="css/stylead01.css">
   </head>
   <body>
   <div class="menu text-center">
@@ -46,33 +46,94 @@
 
 
   <div class="main-content">
-             
+
+
+
+
+ 
              <div class="row">
-                 <h1>DASHBOARD</h1>
-                 <div class="col-2 text-center">
-                   <h1>4</h1>
-                   <br/>
-                   Catagories
-                 </div>
+             <h1>Manage Order</h1>
 
-                 <div class="col-2 text-center">
-                   <h1>6</h1>
-                   <br/>
-                   Food
-                 </div>
+             <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">S.N.</th>
+      <th scope="col">Food</th>
+      <th scope="col">Price</th>
+      <th scope="col">Qty.</th>
+      <th scope="col">Total</th>
+      <th scope="col">Order Date</th>
+      <th scope="col">Status</th>
+      <th scope="col">Customer Name</th>
+      <th scope="col">Content</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+      <th scope="col">Action</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1.</th>
+      <td>Mixed Pizza</td>
+      <td>10.00</td>
+      <td>2</td>
+      <td>20.00</td>
+      <td>2020-11-30
+          04:07:17
+      </td>
+      <td class=" text text-success">Delivered</td>
+      <td>Jana</td>
+      <td>+1(562)
+          101-2028
+      </td>
+      <td>tyduji@mailinator.com</td>
+      <td>Minima</td>
+      <td><button type="button" class="btn btn-success text-dark">Update Order</button></td>
+   
+    </tr>
+    <tr>
+      <th scope="row">2.</th>
+      
+      <td>Best Burger</td>
+      <td>4.00</td>
+      <td>4</td>
+      <td>16.00</td>
+      <td>2020-11-30
+          03:52:43
+      </td>
+      <td class=" text text-success">Delivered</td>
+      <td>Kelly</td>
+      <td>+1(908)
+          101-2028
+      </td>
+      <td>feceajjy@mailinator.com</td>
+      <td>ipsum</td>
+      <td><button type="button" class="btn btn-success text-dark">Update Order</button></td>
+    </tr>
+    <tr>
+    <th scope="row">3.</th>
+      <td>Sakedo Momo</td>
+      <td>6.00</td>
+      <td>3</td>
+      <td>18.00</td>
+      <td>2020-11-30
+          04:07:17
+      </td>
+      <td class=" text text-danger">Cancelled</td>
+      <td>Falow</td>
+      <td>+1(576)
+          101-2028
+      </td>
+      <td>zuhaji@mailinator.com</td>
+      <td>Duis</td>
+      <td><button type="button" class="btn btn-success text-dark">Update Order</button></td>
+    </tr>
+  
+  </tbody>
+</table>
 
-                 <div class="col-2 text-center">
-                   <h1>3</h1>
-                   <br/>
-                  Total Orders
-                 </div>
-
-                 <div class="col-2 text-center">
-                   <h1>$36.00</h1>
-                   <br/>
-                   Revenue
-                 </div>
-                  <div class="fix"></div>
+                 
              </div>
   </div>
 
