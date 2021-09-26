@@ -1,0 +1,61 @@
+.bg-cuatoi {
+    background-image: url(../Images/bg.jpg);
+    background-color: aqua;
+}
+.navbar a{
+    color:pink;
+}
+
+.container{
+   
+    width:80%;
+    margin:0% auto;
+    padding: 2%;
+}
+.Food-Search {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:6%
+}
+.bg-toi{
+    background-color:pink;
+   
+
+}
+.Categories{
+    padding: 4% 0;
+}
+.text-center{
+    text-align: center;
+}
+.Food menu{
+    padding: 4% 0;
+}
+
+/* Food Menu */
+.Food-menu{
+    background: #ececec;
+    padding: 4%;
+}
+
+/*  social */
+.container ul{
+    list-style-type: none;
+}
+.container ul li{
+    display: inline;
+    padding:1%;
+}
+.container ul li a{
+   color:#ff6b81;
+   text-decoration:none;
+
+}
+/* END */
+.container p a{
+    color:#ff6b81;
+    text-decoration:none;
+ 
+ }
